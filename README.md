@@ -1,7 +1,7 @@
 # go-dockerclient
 
-[![Build Status](https://github.com/fsouza/go-dockerclient/workflows/Build/badge.svg)](https://github.com/fsouza/go-dockerclient/actions?query=branch:main+workflow:Build)
-[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/fsouza/go-dockerclient)
+[![Build Status](https://github.com/imkos/go-dockerclient/workflows/Build/badge.svg)](https://github.com/imkos/go-dockerclient/actions?query=branch:main+workflow:Build)
+[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/imkos/go-dockerclient)
 
 This package presents a client for the Docker remote API. It also provides
 support for the extensions in the [Swarm API](https://docs.docker.com/swarm/swarm-api/).
@@ -33,7 +33,7 @@ package main
 import (
 	"fmt"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/imkos/go-dockerclient"
 )
 
 func main() {
@@ -68,7 +68,7 @@ package main
 import (
 	"fmt"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/imkos/go-dockerclient"
 )
 
 func main() {
@@ -94,7 +94,7 @@ package main
 import (
 	"fmt"
 
-	docker "github.com/fsouza/go-dockerclient"
+	docker "github.com/imkos/go-dockerclient"
 )
 
 func main() {
