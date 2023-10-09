@@ -19,7 +19,8 @@ type LogsOptions struct {
 	InactivityTimeout time.Duration `qs:"-"`
 	Tail              string
 
-	Since      int64
+	Since      string
+	Until      string
 	Follow     bool
 	Stdout     bool
 	Stderr     bool
